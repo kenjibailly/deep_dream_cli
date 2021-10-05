@@ -19,6 +19,9 @@ Download here https://www.anaconda.com/products/individual
     conda install cudatoolkit -c anaconda
     conda install -c conda-forge opencv ffmpeg
     conda install -c conda-forge matplotlib
+    conda install -c anaconda pillow
+    conda install -c conda-forge glob2
+
 
 ## 4. Check if Tensorflow is running on your gpu
 
