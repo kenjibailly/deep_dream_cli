@@ -17,7 +17,7 @@ Download here httpswww.anaconda.comproductsindividual
     conda install cudatoolkit -c anaconda
     conda install -c conda-forge opencv ffmpeg
 
-## 4. Check that Tensorflow is running
+## 4. Check if Tensorflow is running on your gpu
 
     conda activate tf-gpu
 
