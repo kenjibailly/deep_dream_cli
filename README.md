@@ -1,4 +1,6 @@
-# How to install Deep Dream on Windows 10
+# How to install Deep Dream on Windows 10 using GPU
+
+Note: If your graphics card isn't CUDA supported, things will not work.
 
 ## 1. Download Python
 To download Python, open Command Prompt and type in
@@ -6,7 +8,7 @@ To download Python, open Command Prompt and type in
     python
 
 ## 2. Download Anaconda
-Download here httpswww.anaconda.comproductsindividual
+Download here https://www.anaconda.com/products/individual
 
 ## 3. Open Anaconda and run the following lines of code
 
@@ -16,15 +18,14 @@ Download here httpswww.anaconda.comproductsindividual
     conda install cudnn -c conda-forge 
     conda install cudatoolkit -c anaconda
     conda install -c conda-forge opencv ffmpeg
+    conda install -c conda-forge matplotlib
 
 ## 4. Check if Tensorflow is running on your gpu
-
-    conda activate tf-gpu
 
     python
 
      import tensorflow as tf
-     print(Num GPUs Available , len(tf.config.list_physical_devices('GPU')))
+     print('Num GPUs Available', len(tf.config.list_physical_devices('GPU')))
      exit()
 
 
