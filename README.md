@@ -27,9 +27,9 @@ Download here https://www.anaconda.com/products/individual
 
     python
 
-     import tensorflow as tf
-     print('Num GPUs Available', len(tf.config.list_physical_devices('GPU')))
-     exit()
+    >>> import tensorflow as tf
+    >>> print('Num GPUs Available', len(tf.config.list_physical_devices('GPU')))
+    >>> exit()
 
 
 # How to use these scripts
