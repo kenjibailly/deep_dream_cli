@@ -12,14 +12,38 @@ Download here https://www.anaconda.com/products/individual
 
 ## 3. Open Anaconda and run the following lines of code
 
-    conda create -n tf_gpu_env python=3.9
+    conda create -n tf_gpu_env python=3.9   
+    
+‎
+
     conda activate tf_gpu_env
+
+ ‎
+
     conda install tensorflow-gpu -c anaconda
+ 
+ ‎
+
     conda install cudnn -c conda-forge 
+
+‎
+
     conda install cudatoolkit -c anaconda
+
+‎
+
     conda install -c conda-forge opencv ffmpeg
+ 
+‎ 
+ 
     conda install -c conda-forge matplotlib
+
+‎
+
     conda install -c anaconda pillow
+
+‎
+
     conda install -c conda-forge glob2
 
 
@@ -27,9 +51,17 @@ Download here https://www.anaconda.com/products/individual
 
     python
 
-    >>> import tensorflow as tf
-    >>> print('Num GPUs Available', len(tf.config.list_physical_devices('GPU')))
-    >>> exit()
+‎
+
+    import tensorflow as tf
+
+‎
+
+    print('Num GPUs Available', len(tf.config.list_physical_devices('GPU')))
+
+‎
+
+    exit()
 
 
 # How to use these scripts
@@ -49,7 +81,9 @@ Download here https://www.anaconda.com/products/individual
 2. All converted deep dream images will be generated in the deep_dream_images_input folder.
 3. All converted images can be found in the deep_dream_images_output folder.
 
-        python dream_images.py
+‎
+
+    python dream_images.py
 
 ## - Video (mp4) to deep dream video
 1. Put video in the video_to_deep_dream folder.
@@ -72,5 +106,7 @@ Tip If you want to stop the process press ctrl+c twice.
     - dream_images.py
     - dream_on.py
 2. Video can be found in the video_output folder.
+
+‎
     
-        python dream_images_to_video.py
+    python dream_images_to_video.py
