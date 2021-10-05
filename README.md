@@ -23,7 +23,7 @@ Download here https://www.anaconda.com/products/individual
     conda install -c conda-forge glob2
 
 
-## 4. Check if Tensorflow is running on your gpu
+## 4. Activate / Check if Tensorflow is running on your gpu
 
     python
 
