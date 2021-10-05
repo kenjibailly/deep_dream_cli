@@ -1,4 +1,4 @@
-# How to install Deep Dream on Windows 10 using GPU
+# How to install Deep Dream on Windows 10 (Nvidia Cuda supported GPU)
 
 Note: If your graphics card isn't CUDA supported, things will not work.
 
