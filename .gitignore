@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*
 !.gitignore
 !video_output
