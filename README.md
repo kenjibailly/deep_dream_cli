@@ -10,7 +10,7 @@ To download Python, open Command Prompt and type in
 ## 2. Download Anaconda
 Download here https://www.anaconda.com/products/individual
 
-## 3. Open Anaconda and run the following lines of code
+## 3. Open Anaconda (Powershell Prompt) and run the following lines of code
 
     conda create -n tf_gpu_env python=3.9   
     
@@ -68,9 +68,11 @@ Download here https://www.anaconda.com/products/individual
 
 ## 1. Open Anaconda
 ## 2. Navigate to the deep_dream folder by using 
-    cd pathtodeep_dream
+    cd path/to/deep_dream
 
 ## 3. Activate the gpu environment
+Note: You have to do this everytime you restart anaconda. 
+
     conda activate tf-gpu
 
 ## 4. Run one of the following scripts
